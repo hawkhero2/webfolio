@@ -28,6 +28,11 @@
   flex-grow: 1;
 }
 
+.section {
+  padding: 2rem;
+  justify-content: center;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
