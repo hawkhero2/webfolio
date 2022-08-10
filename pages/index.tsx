@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-require('dotenv').config()
+
 
 const Home: NextPage = () => {
   return (
@@ -30,9 +30,9 @@ const Home: NextPage = () => {
           </p>
           {/* TODO: add image for github project*/}
           <Image
-           src="public/">
-
-           </Image>
+           src="public/"
+           
+          ></Image>
         </div>
       </main>
 
