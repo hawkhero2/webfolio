@@ -18,7 +18,7 @@ function Section(props: any) {
       </div>
       <div className={styles.description}>
         <p>
-          This is a description of the project
+          {props.description}
         </p>
       </div>
     </div>
@@ -58,9 +58,9 @@ const Home: NextPage = () => {
             <a href="https://github.com/hawkhero2">Ivanciu</a>
           </p>
         </div>
-        <Section title="test 1" />
-        <Section title="test 2" />
-        <Section title="test 3" />
+        <Section title="test 1" description="test description" />
+        <Section title="test 2" description="test description" />
+        <Section title="test 3" description="test description" />
 
       </main>
 
