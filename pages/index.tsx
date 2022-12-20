@@ -1,30 +1,7 @@
-import type { NextPage } from 'next'
+import type {NextPage} from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react'
 import styles from '../styles/Home.module.css'
-
-function Section(props: any) {
-
-  return (
-    <div className={styles.section}>
-      {/* section containing title, short description and link towards the github repo,
-      idealy information fetched from a database
-      */}
-      <div className={styles.title}>
-        <h1>
-          {props.title}
-        </h1>
-      </div>
-      <div className={styles.description}>
-        <p>
-          {props.description}
-        </p>
-      </div>
-    </div>
-
-  )
-}
+import {Section} from "./section";
 
 const Home: NextPage = () => {
   return (
@@ -61,6 +38,7 @@ const Home: NextPage = () => {
         <Section title="test 1" description="test description" />
         <Section title="test 2" description="test description" />
         <Section title="test 3" description="test description" />
+        <Section title="test 4" description="test desc"/>
 
       </main>
 
