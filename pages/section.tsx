@@ -4,7 +4,8 @@ export function Section(props: any) {
 
   return (
     <div className={styles.section}>
-      {/* section containing title, short description and link towards the github repo,
+      {/* section containing title, 
+      short description and link towards the github repo, 
       idealy information fetched from a database
       */}
       <div className={styles.card}>

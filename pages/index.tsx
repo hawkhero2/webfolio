@@ -1,7 +1,7 @@
-import type {NextPage} from 'next'
+import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {Section} from "./section";
+import { Section } from "./section";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.container}>
           <p>
-            Bellow you will find some of my projects and link towards my leetcode profile
+            Bellow you will find some of my projects and link towards my socials.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <Section title="test 1" description="test description" />
         <Section title="test 2" description="test description" />
         <Section title="test 3" description="test description" />
-        <Section title="test 4" description="test desc"/>
+        <Section title="test 4" description="test desc" />
 
       </main>
 
